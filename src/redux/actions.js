@@ -8,6 +8,7 @@ export const increment = (value) => {
 };
 
 export const decrement = (value) => {
+    console.log(value);
     return {
         type: "counter/decrement",
         payload: value,
